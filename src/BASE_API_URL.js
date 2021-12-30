@@ -1,2 +1,2 @@
-const BASE_API_URL = "http://localhost:4000";
+const BASE_API_URL = "https://hack-a-world-api.herokuapp.com";
 export default BASE_API_URL;
