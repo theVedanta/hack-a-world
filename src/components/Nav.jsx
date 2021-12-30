@@ -73,7 +73,7 @@ const Nav = ({ auth, pfp }) => {
                             </div>
                         ) : (
                             <GoogleLogin
-                                clientId="574213419539-69uphc2dga6icdmf5r2equb6srd8ops9.apps.googleusercontent.com"
+                                clientId="574213419539-c4201adt2hs7pe53mhjr2l19ieeklodh.apps.googleusercontent.com"
                                 buttonText="Login"
                                 onSuccess={onSuccess}
                                 onFailure={onFailure}
