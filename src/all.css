@@ -1,3 +1,60 @@
 .nav-link {
     margin-left: 3vw;
 }
+.logged-in-flex {
+    display: flex;
+    align-items: center;
+    margin-left: 3vw;
+}
+.pfp {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+}
+.events {
+    width: 100%;
+}
+.reqd {
+    position: relative;
+}
+.reqd::after {
+    content: "*";
+    position: absolute;
+    top: 0;
+    right: -12%;
+    color: red;
+}
+.form-label {
+    font-weight: 600;
+}
+.link,
+.tag {
+    display: flex;
+}
+.link input,
+.tag input {
+    margin-right: 1vw;
+}
+
+.input-danger {
+    border: 1px solid red;
+}
+.input-fine {
+    border: 1px solid green;
+}
+
+.login,
+.logout {
+    padding-left: 2vw !important;
+    padding-right: 2vw !important;
+}
+.events {
+    display: flex;
+}
+.events .card {
+    margin-right: 2vw;
+}
+.card-title {
+    font-weight: 600;
+    font-size: 2vw;
+}
